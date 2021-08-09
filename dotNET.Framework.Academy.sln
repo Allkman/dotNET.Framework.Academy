@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNET.Academy.L3", "dotNET
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNET.Academy.L3.HOMEWORK", "dotNET.Academy.L3.HOMEWORK\dotNET.Academy.L3.HOMEWORK.csproj", "{6B503187-9063-48AB-9F07-CA06DFDF87DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNET.Academy.L4", "dotNET.Academy.L4\dotNET.Academy.L4.csproj", "{31413631-D9E7-4453-A677-1E4DBB6785D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6B503187-9063-48AB-9F07-CA06DFDF87DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B503187-9063-48AB-9F07-CA06DFDF87DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B503187-9063-48AB-9F07-CA06DFDF87DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31413631-D9E7-4453-A677-1E4DBB6785D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31413631-D9E7-4453-A677-1E4DBB6785D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31413631-D9E7-4453-A677-1E4DBB6785D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31413631-D9E7-4453-A677-1E4DBB6785D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

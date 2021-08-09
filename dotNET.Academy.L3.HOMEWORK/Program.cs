@@ -62,7 +62,7 @@ namespace dotNET.Academy.L3.HOMEWORK
         private static void NumberGuessingGame()
         {
             var rnd = new Random();
-            var secrectNumber = rnd.Next(1, 5);
+            var secrectNumber = rnd.Next(1, 11);
             int guessedNumber = 0;
             Console.WriteLine("Try to guess a secret number from 1 to 10");
 
@@ -93,7 +93,7 @@ namespace dotNET.Academy.L3.HOMEWORK
             var incorrectGuessesCount = 3;
 
             Console.Clear();
-            Console.Write("Plese enter you PIN: ");
+            Console.Write("Plese enter you 4-digit PIN: ");
             //sukti while tol kol vartotojo ivestis nelygu pin kodui IR spejimu skaicius(kiekis) mazesnis uz galimu spejimu skaiciu (kieki)
             while (pinCode != userInput && guessCount < incorrectGuessesCount) 
             {
@@ -156,10 +156,10 @@ namespace dotNET.Academy.L3.HOMEWORK
             var sb = new StringBuilder(); //kuriu string builder objekta (sb)
             sb.Append(str); // sb objektui pridedu ivesta string`a (str)
 
-            var tmp = sb[0]; //kuriu nauja laikina kintamaji kuriame saugau pirmaja "str" raide (char)
+            var firstChar = sb[0]; //kuriu nauja laikina kintamaji kuriame saugau pirmaja "str" raide (char)
             //---------- swap`as -- //
-            sb[0] = sb[sb.Length - 1]; //sulyginu(sutapatinu) pirmaja str raide su paskutiniaja
-            sb[sb.Length - 1] = tmp; //sulyginu(sutapatinu) paskutiniaja str raide su pirmaja 
+            sb[0] = sb[sb.Length - 1]; //sulyginu(sutapatinu) pirmaja str raide su paskutiniaja (paskutine raide nusikelia i prieki)
+            sb[sb.Length - 1] = firstChar; //sulyginu(sutapatinu) paskutiniaja str raide su pirmaja (pirma raide nusikelia i string gala)
             //----------------------//
             str = sb.ToString(); //ivestam str stringui pritaukau sb (swap`a)
             Console.WriteLine(str);
